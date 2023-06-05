@@ -3,10 +3,10 @@
 }
 
 .menu_mobile {
-    width: 12.5rem;
+    width: 200px;
     display: none;
     background-color: var(--cor-primaria);
-    margin-left: 7.5rem;
+    margin-left: 120px;
 }
 
 @media(max-width:785px) {
@@ -23,45 +23,40 @@
         display: block;
     }
 
-    .botaoMenuMobile {
-        position: absolute;
-        right: 1.25rem;
-    }
-
     .botaoMenuMobile img {
         background-color: var(--cor-secundaria);
     }
 
     .menu_mobile {
         position: absolute;
-        right: 1.87rem;
+        right: 20px;
     }
 
     .menu_mobile_ul {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 1rem;
+        padding-bottom: 15px;
         list-style: none;
     }
 
     .menu_mobile_ul a {
-        font-size: 1.2rem;
+        font-size: 20px;
     }
 }
 
 @media(max-width:480px) {
     .botaoMenuMobile {
-        width: 2rem;
-        height: 2rem;
+        width: 30px;
+        height: 30px;
     }
 
     .botaoMenuMobile img {
-        width: 2rem;
-        height: 2rem;
+        width: 30px;
+        height: 30px;
     }
 
     .menu_mobile_ul a {
-        font-size: 1rem;
+        font-size: 15px;
     }
 }

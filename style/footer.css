@@ -22,23 +22,20 @@
     font-size: 20px;
 }
 
-@media(max-width:480px) {
-    .rodape_informacoes {
-        width: 250px;
+@media(max-width:320px) {
+    .rodape {
         display: flex;
-        align-items: center;
-        text-align: center;
-        color: inherit
+        justify-content: center;
+        width: 500px;
     }
 
-    .rodape_informacoes img {
-        width: 35px;
-        height: 35px;
+    .rodape_informacoes {
+        width: 250px;
     }
 
     .rodape_paragrafo,
-    .rodape_autor {
-        font-size: 15px;
+    .rodape_autor {    
+        font-size: 10px;
         margin: 15px;
     }
 }
