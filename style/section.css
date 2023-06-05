@@ -116,13 +116,18 @@
         justify-content: center;
     }
 
+    .foto_perfil {
+        height: 400px;
+        width: 400px;
+    }
+
     .sociais {
         position: absolute;
-        top: 740px;
+        top: 840px;
     }
 }
 
-@media(max-width:320px) {
+@media(max-width:480px) {
     .secao_dados {
         height: 480px;
         width: 500px;
@@ -156,7 +161,7 @@
 
     .sociais {
         position: absolute;
-        top: 450px;
+        top: 475px;
     }
 
     .sociais img {

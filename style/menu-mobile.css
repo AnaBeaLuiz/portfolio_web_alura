@@ -29,7 +29,8 @@
 
     .menu_mobile {
         position: absolute;
-        right: 20px;
+        right: 210px;
+        top: 50px
     }
 
     .menu_mobile_ul {
