@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --cor-primaria: #8c162a;
+    --cor-secundaria: #ced1c0;
+    --cor-terciaria: #ebe5ce;
+    --cor-quartenaria: #000000;
+
+}
+
+section {
+    color: var(--cor-terciaria);
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    box-sizing: border-box;
+    width: 100vw;
+    color: var(--cor-quartenaria);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
